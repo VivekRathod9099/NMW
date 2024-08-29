@@ -1,0 +1,218 @@
+body {
+    font-family: 'Alata';font-size: 18px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-image: url(https://cdn.photoroom.com/v2/image-cache?path=gs://background-7ef44.appspot.com/backgrounds_v3/black/Photoroom_black_background_extremely_fine_texture_only_black_co_c756a0c0-4895-4275-845b-7a20f085e432.jpg);
+    background-size: cover;
+    word-spacing: 5px;
+    
+}
+
+header {
+    background-image: url(https://cdn.photoroom.com/v2/image-cache?path=gs://background-7ef44.appspot.com/backgrounds_v3/black/Photoroom_black_background_extremely_fine_texture_only_black_co_c756a0c0-4895-4275-845b-7a20f085e432.jpg);
+    color: #fff;
+    background-size: cover;
+    padding: 1em 0;
+    text-align: center;
+    word-spacing: 10px;
+}
+
+header h1 {
+    margin: 1%;
+    text-shadow: 4px 5px 20px white;
+    transform: unset 10px;
+    translate: 6s ;
+    
+}
+
+h2{
+  text-align: center;
+  color: white;
+  text-shadow: 5px 2px 25px white;
+  
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-shadow: 5px 10px 18px red;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: underline;
+}
+
+
+section {
+    padding: 20px;
+    margin: 10px;
+}
+
+section h2 {
+    color: white;
+}
+a {
+  color: white;
+  text-shadow: 5px 10px 25px white;
+}
+footer {
+    word-spacing: 10px;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    text-shadow: 5px 10px 26px white;
+    background-image: url(https://cdn.photoroom.com/v2/image-cache?path=gs://background-7ef44.appspot.com/backgrounds_v3/black/Photoroom_black_background_extremely_fine_texture_only_black_co_c756a0c0-4895-4275-845b-7a20f085e432.jpg);
+    background-size: cover;
+}
+
+footer a {
+  margin: 0 10px;
+  color: white;
+}
+
+
+.icon a{
+  color: white;
+  text-shadow: 5px 10px 25px white;
+} 
+
+.img{ 
+  
+  display: flex ;
+  align-items: center;
+}
+
+.icon:hover{
+  color: #f5f5f5;
+  transition: 6s;
+}
+
+.img:active{ 
+  filter: drop-shadow(5px 5px 20px white );
+}
+
+a:hover {
+    color: black;
+    text-decoration: double;
+    filter: drop-shadow(10px 7px 10px darkblue);
+}
+
+nav ul li a:hover {
+    color: black;
+    text-decoration: double;
+}
+
+
+nav ul li a:active{
+  text-shadow: 2px 2px 13px darkcyan;
+}
+
+.photo {
+    perspective: 1000px;
+}
+
+.photo {
+    height: 400px;
+    width: 98%;
+    background-image: url(https://cdn.photoroom.com/v2/image-cache?path=gs://background-7ef44.appspot.com/backgrounds_v3/black/Photoroom_black_background_extremely_fine_texture_only_black_co_c756a0c0-4895-4275-845b-7a20f085e432.jpg);
+    border-radius: 15px;
+    overflow: scroll;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+    box-shadow: 0 10px 20px white;
+    text-align: center;
+}
+
+.contact-form {
+  padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px white;
+    width: 90%;
+    background-image: url(https://cdn.photoroom.com/v2/image-cache?path=gs://background-7ef44.appspot.com/backgrounds_v3/black/Photoroom_black_background_extremely_fine_texture_only_black_co_c756a0c0-4895-4275-845b-7a20f085e432.jpg);
+    background-size: cover;
+}
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: red;
+    display: flex;
+}
+
+.input-box {
+  margin: auto;
+    position: relative;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.input-box input,
+.input-box textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s ease;
+    display: flex;
+}
+
+.input-box textarea {
+    height: 100px;
+    resize: none;
+    display: flex;
+}
+
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #aaa;
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.3s ease;
+}
+
+.input-box input:focus ~ label,
+.input-box input:valid ~ label,
+.input-box textarea:focus ~ label,
+.input-box textarea:valid ~ label {
+    top: 0;
+    left: 10px;
+    color: #007bff;
+    font-size: 12px;
+    background-color: #ffffff;
+    padding: 0 5px;
+}
+
+.input-box input:focus,
+.input-box textarea:focus {
+    border-color: #007bff;
+}
+
+.submit-btn {
+    text-align: center;
+}
+
+.submit-btn button {
+    background-color: red;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn button:hover {
+    background-color: #0056b3;
+}
