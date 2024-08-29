@@ -114,11 +114,11 @@ nav ul li a:active{
 }
 
 .photo {
-    perspective: 1000px;
+    perspective: 90%;
 }
 
 .photo {
-    height: 400px;
+    height: 600px;
     width: 98%;
     background-image: url(https://cdn.photoroom.com/v2/image-cache?path=gs://background-7ef44.appspot.com/backgrounds_v3/black/Photoroom_black_background_extremely_fine_texture_only_black_co_c756a0c0-4895-4275-845b-7a20f085e432.jpg);
     border-radius: 15px;
