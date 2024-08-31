@@ -1,12 +1,12 @@
 body {
     font-family: 'Alata';font-size: 18px;
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: auto;
     color: white;
     background-image: url(https://cdn.photoroom.com/v2/image-cache?path=gs://background-7ef44.appspot.com/backgrounds_v3/black/Photoroom_black_background_extremely_fine_texture_only_black_co_c756a0c0-4895-4275-845b-7a20f085e432.jpg);
     background-size: cover;
     word-spacing: 5px;
-    
+    backdrop-filter: blur (10px);
 }
 
 header {
@@ -30,7 +30,6 @@ h2{
   text-align: center;
   color: white;
   text-shadow: 5px 2px 25px white;
-  
 }
 
 nav ul {
@@ -39,6 +38,9 @@ nav ul {
     text-shadow: 5px 10px 18px red;
 }
 
+.navbar{ 
+  }
+
 nav ul li {
     display: inline;
     margin: 0 10px;
@@ -46,6 +48,9 @@ nav ul li {
 
 nav ul li a {
     color: white;
+    background: transparent;
+  backdrop-filter: blur(10px);
+
     text-decoration: underline;
 }
 
@@ -57,11 +62,14 @@ section {
 
 section h2 {
     color: white;
+    text-align: center
 }
+
 a {
   color: white;
   text-shadow: 5px 10px 25px white;
 }
+
 footer {
     word-spacing: 10px;
     color: #fff;
@@ -82,15 +90,18 @@ footer a {
 .icon a{
   color: white;
   text-shadow: 5px 10px 25px white;
-} 
+}
+
 
 .img{ 
   align-items: center;
+  margin: 30px;
 }
 
 .icon:hover{
-  color: #f5f5f5;
+  filter: drop-shadow(5px 5px 20px white );
   transition: 6s;
+
 }
 
 .img:active{ 
@@ -98,9 +109,8 @@ footer a {
 }
 
 a:hover {
-    color: black;
-    text-decoration: double;
-    filter: drop-shadow(10px 7px 10px darkblue);
+    color: darkred;
+    filter: drop-shadow(5px 5px 20px white );
 }
 
 nav ul li a:hover {
@@ -113,20 +123,20 @@ nav ul li a:active{
   text-shadow: 2px 2px 13px darkcyan;
 }
 
-.photo {
-    perspective: 90%;
+#google_translate_element{
+ text-align: right;
+ margin-right: 20px;
 }
 
 .photo {
-    height: 600px;
-    width: 98%;
+    height: auto;
+    width: auto;
     background-image: url(https://cdn.photoroom.com/v2/image-cache?path=gs://background-7ef44.appspot.com/backgrounds_v3/black/Photoroom_black_background_extremely_fine_texture_only_black_co_c756a0c0-4895-4275-845b-7a20f085e432.jpg);
     border-radius: 15px;
     overflow: scroll;
     transition: transform 0.5s;
     transform-style: preserve-3d;
     box-shadow: 0 10px 20px white;
-    text-align: center;
 }
 
 .contact-form {
@@ -147,6 +157,8 @@ nav ul li a:active{
   margin: auto;
     position: relative;
     margin-bottom: 30px;
+    background: transparent;
+    backdrop-filter: blur(10px);
 }
 
 .input-box input,
@@ -158,11 +170,15 @@ nav ul li a:active{
     border-radius: 5px;
     outline: none;
     transition: 0.3s ease;
+    background: transparent;
+   backdrop-filter: blur(5px);
 }
 
 .input-box textarea {
     height: 100px;
     resize: none;
+    background: transparent;
+  backdrop-filter: blur(10px);
 }
 
 .input-box label {
